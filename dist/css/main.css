@@ -1,4 +1,207 @@
 h1 {
-	/* 글자색 빨간색 */
-	color: red;
+	/* 글자색 지정 */
+	color: orange;
+	font-size: 50px;
+	font-weight: 900;
+	border: 4px solid;
 }
+
+.container {
+	background-color: orange;
+	height: 200px;
+	width: 70px;
+	padding-top: 30px;
+	padding-left: 30px;
+	/* 
+    margin-top: 10px;
+	margin-left: 20px; 
+    */
+}
+
+.item {
+	background-color: royalblue;
+	/* width: 400px; */
+	/* min-width: 300px; */
+	max-width: 150px;
+	height: 70px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	padding-top: 30px;
+	border: 4px solid red;
+	border-radius: 10px;
+	box-shadow: 30px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.contain {
+	max-width: 350px;
+
+	font-size: 22px;
+	font-weight: 700;
+	font-family: serif;
+	line-height: 2;
+	text-align: center;
+	color: brown;
+	text-decoration: underline;
+	word-break: keep-all; /*한글 단어 붙여서 줄바꿈 됨*/
+}
+
+.context {
+	width: 300px;
+	height: 150px;
+	background-color: royalblue;
+	background-image: url('https://heropy.blog/css/images/logo.png');
+	background-size: 100px;
+	background-repeat: no-repeat;
+
+	/* background-position: center top; */
+	/* background-position: right bottom; */
+	background-position: center center;
+}
+
+.mainContainer {
+	height: 200px;
+	border: 4px solid #000;
+	/* flex: auto; */
+
+	display: flex;
+	justify-content: center;
+	/* justify-content: end; */
+	/* justify-content: start; */
+	align-items: center;
+	/* align-items: end; */
+	/* align-items: start; */
+	/* align-items: flex-end; */
+
+	gap: 10px;
+}
+.mainContainer .box {
+	width: 100px;
+	height: 100px;
+	background-color: rosybrown;
+	/* float: left; */
+
+	display: flex;
+	justify-content: center; /*수직 가운데*/
+	align-items: center; /*수평 가운데*/
+
+	font-size: 30px;
+	color: antiquewhite;
+	transition: 1s;
+	/* 
+    transform: translateX(50px) translateY(50px) rotate(45deg) scale(0.5);
+	transition-duration: 2s; 
+    */
+
+	/* border-radius: 50%; */
+}
+
+.mainContainer .box:hover {
+	transform: rotate(45deg);
+	/* transition: 1s; */
+	background-color: orange;
+	border-radius: 50%;
+}
+
+.root {
+	height: 100px;
+	border: 10px solid #000;
+}
+.root .subItem {
+	width: 200px;
+	height: 100px;
+	background-color: rosybrown;
+}
+
+/**
+반응형 css
+width가 500px 이하인 경우
+*/
+@media (max-width: 500px) {
+	.root {
+		height: 200px;
+		border: 10px solid #aaffaa;
+		background-color: orange;
+	}
+	.root .subItem {
+		width: 100px;
+		height: 300px;
+	}
+}
+
+.packageContent {
+}
+.packageContent .subContent {
+	/* width: 100%;
+    height: 100%; */
+}
+.packageContent .btn {
+	width: 150px;
+	height: 40px;
+	background-color: orange;
+	border-radius: 10px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.packageContent .btn:hover {
+	background-color: blue;
+}
+
+.packageContent .btn span {
+	/* background-color: orange; */
+	font-size: 22px;
+	font-weight: 700;
+	color: #000;
+}
+
+/*박스 모델
+Box Models : HTML 요소의 형태를 만든다. 
+*/
+/**
+글꼴 , 문자
+Fonts, Texts : HTML 요소의 글자를 꾸민다.
+*/
+/*
+Backgrounds
+*/
+
+/*
+Positions : 배치
+*/
+
+/*
+정렬 : Flexible Boxes, Flex
+*/
+
+/*
+Transitions : 전환
+HTML요소의 이전과 이후 상태를 자연스럽게 보여준다.
+*/
+
+/*
+변환 : Transforms - HTML 요소에 회전, 비율, 기울기, 이동, 원근감 등의 효과를 추가한다.
+*/
+
+/*
+띄움 : Floations - HTML 요소를 글자 위에 띄운다.
+*/
+
+/*
+Animations : 애니메이션 - HTML 요소에 애니메이션을 추가한다.
+*/
+
+/*
+Grid : HTML 요소들의 레이아웃을 지정한다.
+*/
+
+/*
+다단 - Columns : HTML 요소의 문장을 마치 신문처럼 여러 단으로 배치한다.
+*/
+
+/*
+Filters - 필터 - HTML 요소에 흐리게, 무채색화, 색상 반전 등의 그래픽 효과를 추가한다.
+*/
