@@ -2,6 +2,17 @@ body {
 	font-family: 'Pretendard Variable', 'Courier New', Courier, monospace;
 	/* display: flex;
 	justify-content: center; */
+	word-break: keep-all;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+img {
+	display: block;
+	/* 
+    display: flex;
+	justify-content: center;
+     */
 }
 
 .page-title {
