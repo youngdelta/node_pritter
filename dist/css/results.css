@@ -1,0 +1,73 @@
+body {
+	background-color: #eaf8ff;
+	background-image: url('../images/result_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.character {
+	width: 100%;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.result {
+	max-width: 600px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.result .box {
+	min-height: 70px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+	border-radius: 20px;
+
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-align: center;
+	padding: 30px 10px;
+	padding-left: 10px;
+}
+
+.result h3 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+	text-align: center;
+	margin: 40px 0 20px 0;
+}
+
+.result .jobs {
+	display: flex;
+	/* justify-content: center; */
+	height: 200px;
+	gap: 10px;
+}
+.result .job {
+	background-color: #fff;
+	flex: 1;
+	background-image: url('../images/result_star.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ffe603;
+	border-radius: 20px;
+}
+
+.result .lecture img {
+	margin-bottom: 40px;
+	width: 100%;
+}
