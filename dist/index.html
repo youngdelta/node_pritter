@@ -8,57 +8,44 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
-		<title>MBTI</title>
+		<title>내 안에 숨어있는 직업캐 찾기!</title>
+		<link
+			rel="icon"
+			href="./favicon.png" />
 		<link
 			rel="stylesheet"
-			href="./css/main.css" />
+			href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+		<link
+			rel="stylesheet"
+			as="style"
+			crossorigin
+			href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css" />
+		<link
+			rel="stylesheet"
+			href="./css/common.css" />
+		<link
+			rel="stylesheet"
+			href="./css/home.css" />
 		<script
-			defer
-			src="./js/main.js"></script>
+			src="./js/share.js"
+			defer></script>
 	</head>
 	<body>
-		<!-- About 페이지로 이동합니다. -->
-		<a href="./about.html">about</a>
-		<h1>Hello World!</h1>
-
-		<br />
-
+		<h2 class="page-subtitle">MBTI</h2>
+		<h1 class="page-title">
+			내 안에 숨어있는<br />
+			직업캐 찾기!
+		</h1>
 		<img
-			src="https://heropy.blog/css/images/logo.png"
-			alt="로고" />
-
-		<hr />
-		<!-- 블록 엘리먼트 -->
-		<div>
-			<ul class="fruits">
-				<li>Apple</li>
-				<li>Banana</li>
-			</ul>
-		</div>
-		<!-- 글자요소 :  height , widht 가 적용안됨.-->
-		<hr />
-
-		<div class="container">
-			<div class="item">1</div>
-			<div class="item">2</div>
-		</div>
-		<div class="contain">동해물과 백두산이 마르고 달토록 하나님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</div>
-		<div class="context"></div>
-		<div class="mainContainer">
-			<div class="box">1</div>
-			<div class="box">2</div>
-			<div class="box">3</div>
-			<div class="box">4</div>
-		</div>
-		<hr />
-		<div class="root">
-			<div class="subItem">1</div>
-		</div>
-		<div class="packageContent">
-			<div class="subContent">1</div>
-			<div class="subContent">2</div>
-			<div class="subContent">3</div>
-			<div class="btn">클릭하세요!!</div>
-		</div>
+			class="character"
+			src="./images/main_character.png"
+			alt="메인 이미지" />
+		<a
+			href="./questions.html"
+			class="btn btn-orange"
+			>본캐 찾으러 GO!</a
+		>
+		<div class="btn btn-green btn-small share-or-copy">주변에 알리기</div>
+		<!-- <div class="btn btn-gray btn-small">주변에 알리기</div> -->
 	</body>
 </html>
