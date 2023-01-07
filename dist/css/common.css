@@ -82,12 +82,12 @@ img {
 }
 
 .btn-gray {
-	background-color: rgb(204, 202, 202);
+	background-color: #f2f4f6;
 	color: #444;
-	box-shadow: 0 14px 0 #9c9c9c;
+	box-shadow: 0 14px 0 #dfe1e2;
 }
 .btn-gray:active {
-	box-shadow: 0 4px 0 #9c9c9c;
+	box-shadow: 0 4px 0 #dfe1e2;
 	transform: translateY(10px);
 }
 
