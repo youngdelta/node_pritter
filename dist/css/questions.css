@@ -63,3 +63,19 @@ body {
 
 .question-box .choice2 {
 }
+@media (max-width: 640px) {
+	.progress {
+		margin-bottom: 30px;
+	}
+
+	.question-box {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.question-box .question {
+		font-size: 28px;
+	}
+	.question-box.choice {
+		font-size: 20px;
+	}
+}
